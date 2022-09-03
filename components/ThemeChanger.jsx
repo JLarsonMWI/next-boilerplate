@@ -19,7 +19,7 @@ function ThemeChanger() {
 	if (!mounted) return null;
 
 	return (
-		<div className="-mr-6 flex items-center justify-center bg-th-nav p-1 text-sm font-bold text-th-text-primary">
+		<div className="flex items-center justify-center bg-th-nav p-1 text-lg font-bold text-th-text-primary md:text-sm">
 			<div>
 				<select
 					name="theme"

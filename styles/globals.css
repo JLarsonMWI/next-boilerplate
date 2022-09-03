@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--nav: theme('colors.violet.500');
+	--background-primary: theme('colors.zinc.200');
+	--background-secondary: theme('colors.theme.light');
+
+	--text-primary: theme('colors.theme.dark');
+	--text-secondary: theme('colors.theme.light');
+	--text-link: theme('colors.violet.500');
+}
+
+[data-theme='Green'] {
+	--nav: theme('colors.emerald.500');
+	--text-link: theme('colors.green.500');
+}
+
+[data-theme='Rose'] {
+	--nav: theme('colors.rose.500');
+	--text-link: theme('colors.rose.500');
+}
+
+[data-theme='Orange'] {
+	--nav: theme('colors.orange.500');
+	--text-link: theme('colors.orange.500');
+}
+
+[data-theme='Blue'] {
+	--nav: theme('colors.blue.500');
+	--text-link: theme('colors.blue.500');
+}
+
 html,
 body {
 	padding: 0;
@@ -17,13 +47,4 @@ a {
 
 * {
 	box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-	html {
-		color-scheme: dark;
-	}
-	body {
-		@apply bg-theme-grey text-theme-dark;
-	}
 }

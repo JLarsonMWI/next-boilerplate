@@ -23,23 +23,9 @@ This template is for use with my NextJS projects and is configured with Tailwind
 
 - Add user authentication methods
 
-## Development
-
-To run the dev server, run the following:
-
-```bash
-  npm run dev
-```
-
-or if you are using yarn:
-
-```bash
-    yarn dev
-```
-
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev

@@ -4,11 +4,9 @@ This template is for use with my NextJS projects and is configured with Tailwind
 
 ## Roadmap
 
-- Enable theme switcher
+- Add mobile menu/navigation
 
-  - Light/Dark mode
-  - Color Picker?
-  - Ability to globally define colors
+- Make site mobile responsive
 
 - Add SVG formatting options
 

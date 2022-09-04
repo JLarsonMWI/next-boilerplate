@@ -4,10 +4,6 @@ This template is for use with my NextJS projects and is configured with Tailwind
 
 ## Roadmap
 
-- Add mobile menu/navigation
-
-- Make site mobile responsive
-
 - Add SVG formatting options
 
   - Change SVG Fill and Stroke colors to make uniform

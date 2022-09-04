@@ -29,7 +29,7 @@ export default function Nav() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<nav className="h-24 w-full bg-th-nav">
+			<nav className="h-20 w-full bg-th-nav">
 				<div className="flex h-full w-screen flex-row items-center justify-between px-8">
 					<div className="flex h-full w-1/2 items-center justify-start text-3xl font-bold uppercase text-theme-light">
 						<Image src="/logo.svg" width={50} height={50} fill="--text-secondary" />
@@ -72,7 +72,7 @@ export default function Nav() {
 											<Link href={link.href}>{link.name}</Link>
 										</li>
 									))}
-									<li className="mt-4 md:ml-4 md:pb-16">
+									<li className="md:ml-4">
 										<ThemeChanger />
 									</li>
 								</ul>

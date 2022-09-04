@@ -19,7 +19,7 @@ export default function Nav() {
 		{ name: 'Plans', href: '/plans' },
 		{ name: 'About', href: '/about' },
 		{ name: 'Contact', href: '/contact' },
-		{ name: 'Member Login', href: '/members' },
+		{ name: 'Members', href: '/members' },
 	];
 	return (
 		<>

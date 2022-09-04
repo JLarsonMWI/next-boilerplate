@@ -4,11 +4,6 @@ This template is for use with my NextJS projects and is configured with Tailwind
 
 ## Roadmap
 
-- Add SVG formatting options
-
-  - Change SVG Fill and Stroke colors to make uniform
-  - Add SVG full color option
-
 - Add Backend Dashboard
 
 - Build API and Add Frontend Support

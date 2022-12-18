@@ -29,21 +29,21 @@ export default function Nav() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<nav className="h-20 w-full bg-th-nav">
-				<div className="flex h-full w-screen flex-row items-center justify-between px-8">
-					<div className="flex h-full w-1/2 items-center justify-start text-3xl font-bold uppercase text-theme-light">
-						<Image src="/logo.svg" width={50} height={50} fill="--text-secondary" />
+			<nav className="w-full h-20 bg-th-nav">
+				<div className="flex flex-row items-center justify-between w-screen h-full px-8">
+					<div className="flex items-center justify-start w-1/2 h-full text-3xl font-bold uppercase text-theme-light">
+						<Image src="/logo.svg" width={50} height={50} />
 					</div>
 
-					<div className="flex h-full w-1/2 flex-col items-end justify-center">
+					<div className="flex flex-col items-end justify-center w-1/2 h-full">
 						<button
 							data-collapse-toggle="navbar-default"
 							type="button"
-							className="my-4 inline-flex items-center rounded-lg p-1 text-sm text-th-text-secondary hover:ring-2 hover:ring-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
+							className="inline-flex items-center p-1 my-4 text-sm rounded-lg text-th-text-secondary hover:ring-2 hover:ring-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden"
 							onClick={handleClick}
 						>
 							<svg
-								className="h-8 w-8"
+								className="w-8 h-8"
 								aria-hidden="true"
 								fill="currentColor"
 								viewBox="0 0 20 20"
@@ -57,8 +57,8 @@ export default function Nav() {
 							</svg>
 						</button>
 						<div className={`${active ? '' : 'hidden md:flex'} bg-th-nav`}>
-							<div className="absolute left-0 z-20 w-full items-center justify-center bg-th-nav pb-1 text-base text-th-text-secondary md:relative md:flex md:w-full">
-								<ul className="absolute w-screen flex-col items-center justify-end bg-th-nav py-5 md:flex md:w-full md:flex-row">
+							<div className="absolute left-0 z-20 items-center justify-center w-full pb-1 text-base bg-th-nav text-th-text-secondary md:relative md:flex md:w-full">
+								<ul className="absolute flex-col items-center justify-end w-screen py-5 bg-th-nav md:flex md:w-full md:flex-row">
 									{links.map((link) => (
 										<li
 											className={`${
